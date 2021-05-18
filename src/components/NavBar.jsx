@@ -14,6 +14,9 @@ const NavBar = () => {
         <NavLink exact activeClassName="active_class" to="/user/manish">
           User
         </NavLink>
+        <NavLink exact activeClassName="active_class" to="/search">
+          Search
+        </NavLink>
         <NavLink exact activeClassName="active_class" to="/contact">
           Contact us
         </NavLink>
