@@ -14,4 +14,12 @@ code {
 a.active_class{
   color :tomato;;
   border-bottom: 1px solid red;
+  text-decoration: none;
+}
+.menu_style{
+  width: 100%;
+  line-height: 30px;
+  background-color: cornflowerblue;
+  display: flex;
+  justify-content: space-around;
 }
