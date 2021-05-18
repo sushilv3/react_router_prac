@@ -1,9 +1,9 @@
 import React from "react";
 
-const Contact = () => {
+const Contact = (props) => {
   return (
     <>
-      <h2>Contact component Page</h2>
+      <h2>Contact component {props.name}Page</h2>
     </>
   );
 };

@@ -1,9 +1,9 @@
 import React from "react";
 
-const About = () => {
+const About = (props) => {
   return (
     <>
-      <h2>about component Page</h2>
+      <h2>about component {props.name} Page</h2>
     </>
   );
 };
